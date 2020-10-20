@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.lb_Password = new System.Windows.Forms.Label();
             this.lb_UserName = new System.Windows.Forms.Label();
             this.tb_UserName = new System.Windows.Forms.TextBox();
@@ -37,9 +38,35 @@
             this.lb_CheckStatusStory = new System.Windows.Forms.Label();
             this.btn_StopStory = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Like = new System.Windows.Forms.PictureBox();
+            this.Heart = new System.Windows.Forms.PictureBox();
+            this.ThuongThuong = new System.Windows.Forms.PictureBox();
+            this.Haha = new System.Windows.Forms.PictureBox();
+            this.WOW = new System.Windows.Forms.PictureBox();
+            this.SAD = new System.Windows.Forms.PictureBox();
+            this.Angry = new System.Windows.Forms.PictureBox();
+            this.chbtn_Like = new System.Windows.Forms.CheckBox();
+            this.chbtn_Tym = new System.Windows.Forms.CheckBox();
+            this.chbtn_ThuongThuong = new System.Windows.Forms.CheckBox();
+            this.chbtn_HAHA = new System.Windows.Forms.CheckBox();
+            this.chbtn_WOW = new System.Windows.Forms.CheckBox();
+            this.chbtn_Sad = new System.Windows.Forms.CheckBox();
+            this.chbtn_Angry = new System.Windows.Forms.CheckBox();
+            this.tb_Like = new System.Windows.Forms.TextBox();
+            this.tb_Tym = new System.Windows.Forms.TextBox();
+            this.tb_ThuongThuong = new System.Windows.Forms.TextBox();
+            this.tb_HAHA = new System.Windows.Forms.TextBox();
+            this.tb_WOW = new System.Windows.Forms.TextBox();
+            this.tb_Sad = new System.Windows.Forms.TextBox();
+            this.tb_Angry = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Like)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Heart)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ThuongThuong)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Haha)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.WOW)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SAD)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Angry)).BeginInit();
             this.SuspendLayout();
             // 
             // lb_Password
@@ -117,27 +144,235 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.pictureBox1);
-            this.groupBox1.Location = new System.Drawing.Point(443, 113);
+            this.groupBox1.Controls.Add(this.tb_Angry);
+            this.groupBox1.Controls.Add(this.tb_Sad);
+            this.groupBox1.Controls.Add(this.tb_WOW);
+            this.groupBox1.Controls.Add(this.tb_HAHA);
+            this.groupBox1.Controls.Add(this.tb_ThuongThuong);
+            this.groupBox1.Controls.Add(this.tb_Tym);
+            this.groupBox1.Controls.Add(this.tb_Like);
+            this.groupBox1.Controls.Add(this.chbtn_Angry);
+            this.groupBox1.Controls.Add(this.chbtn_Sad);
+            this.groupBox1.Controls.Add(this.chbtn_WOW);
+            this.groupBox1.Controls.Add(this.chbtn_HAHA);
+            this.groupBox1.Controls.Add(this.chbtn_ThuongThuong);
+            this.groupBox1.Controls.Add(this.chbtn_Tym);
+            this.groupBox1.Controls.Add(this.chbtn_Like);
+            this.groupBox1.Controls.Add(this.Angry);
+            this.groupBox1.Controls.Add(this.SAD);
+            this.groupBox1.Controls.Add(this.WOW);
+            this.groupBox1.Controls.Add(this.Haha);
+            this.groupBox1.Controls.Add(this.ThuongThuong);
+            this.groupBox1.Controls.Add(this.Heart);
+            this.groupBox1.Controls.Add(this.Like);
+            this.groupBox1.Location = new System.Drawing.Point(497, 18);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(284, 173);
+            this.groupBox1.Size = new System.Drawing.Size(312, 285);
             this.groupBox1.TabIndex = 8;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.groupBox1.Text = "Thả Story";
             // 
-            // pictureBox1
+            // Like
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(17, 21);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.Like.Image = ((System.Drawing.Image)(resources.GetObject("Like.Image")));
+            this.Like.Location = new System.Drawing.Point(29, 33);
+            this.Like.Name = "Like";
+            this.Like.Size = new System.Drawing.Size(27, 27);
+            this.Like.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Like.TabIndex = 0;
+            this.Like.TabStop = false;
+            // 
+            // Heart
+            // 
+            this.Heart.Image = ((System.Drawing.Image)(resources.GetObject("Heart.Image")));
+            this.Heart.Location = new System.Drawing.Point(29, 66);
+            this.Heart.Name = "Heart";
+            this.Heart.Size = new System.Drawing.Size(27, 27);
+            this.Heart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Heart.TabIndex = 1;
+            this.Heart.TabStop = false;
+            // 
+            // ThuongThuong
+            // 
+            this.ThuongThuong.Image = ((System.Drawing.Image)(resources.GetObject("ThuongThuong.Image")));
+            this.ThuongThuong.Location = new System.Drawing.Point(29, 99);
+            this.ThuongThuong.Name = "ThuongThuong";
+            this.ThuongThuong.Size = new System.Drawing.Size(27, 27);
+            this.ThuongThuong.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ThuongThuong.TabIndex = 2;
+            this.ThuongThuong.TabStop = false;
+            // 
+            // Haha
+            // 
+            this.Haha.Image = ((System.Drawing.Image)(resources.GetObject("Haha.Image")));
+            this.Haha.Location = new System.Drawing.Point(29, 132);
+            this.Haha.Name = "Haha";
+            this.Haha.Size = new System.Drawing.Size(27, 27);
+            this.Haha.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Haha.TabIndex = 3;
+            this.Haha.TabStop = false;
+            // 
+            // WOW
+            // 
+            this.WOW.Image = ((System.Drawing.Image)(resources.GetObject("WOW.Image")));
+            this.WOW.Location = new System.Drawing.Point(29, 165);
+            this.WOW.Name = "WOW";
+            this.WOW.Size = new System.Drawing.Size(27, 27);
+            this.WOW.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.WOW.TabIndex = 4;
+            this.WOW.TabStop = false;
+            // 
+            // SAD
+            // 
+            this.SAD.Image = ((System.Drawing.Image)(resources.GetObject("SAD.Image")));
+            this.SAD.Location = new System.Drawing.Point(29, 198);
+            this.SAD.Name = "SAD";
+            this.SAD.Size = new System.Drawing.Size(27, 27);
+            this.SAD.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.SAD.TabIndex = 5;
+            this.SAD.TabStop = false;
+            // 
+            // Angry
+            // 
+            this.Angry.Image = ((System.Drawing.Image)(resources.GetObject("Angry.Image")));
+            this.Angry.Location = new System.Drawing.Point(29, 231);
+            this.Angry.Name = "Angry";
+            this.Angry.Size = new System.Drawing.Size(27, 27);
+            this.Angry.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Angry.TabIndex = 6;
+            this.Angry.TabStop = false;
+            // 
+            // chbtn_Like
+            // 
+            this.chbtn_Like.AutoSize = true;
+            this.chbtn_Like.Location = new System.Drawing.Point(62, 39);
+            this.chbtn_Like.Name = "chbtn_Like";
+            this.chbtn_Like.Size = new System.Drawing.Size(65, 21);
+            this.chbtn_Like.TabIndex = 7;
+            this.chbtn_Like.Text = "Thích";
+            this.chbtn_Like.UseVisualStyleBackColor = true;
+            // 
+            // chbtn_Tym
+            // 
+            this.chbtn_Tym.AutoSize = true;
+            this.chbtn_Tym.Location = new System.Drawing.Point(62, 71);
+            this.chbtn_Tym.Name = "chbtn_Tym";
+            this.chbtn_Tym.Size = new System.Drawing.Size(82, 21);
+            this.chbtn_Tym.TabIndex = 8;
+            this.chbtn_Tym.Text = "Thả Tim";
+            this.chbtn_Tym.UseVisualStyleBackColor = true;
+            // 
+            // chbtn_ThuongThuong
+            // 
+            this.chbtn_ThuongThuong.AutoSize = true;
+            this.chbtn_ThuongThuong.Location = new System.Drawing.Point(62, 104);
+            this.chbtn_ThuongThuong.Name = "chbtn_ThuongThuong";
+            this.chbtn_ThuongThuong.Size = new System.Drawing.Size(132, 21);
+            this.chbtn_ThuongThuong.TabIndex = 9;
+            this.chbtn_ThuongThuong.Text = "Thương Thương";
+            this.chbtn_ThuongThuong.UseVisualStyleBackColor = true;
+            // 
+            // chbtn_HAHA
+            // 
+            this.chbtn_HAHA.AutoSize = true;
+            this.chbtn_HAHA.Location = new System.Drawing.Point(63, 137);
+            this.chbtn_HAHA.Name = "chbtn_HAHA";
+            this.chbtn_HAHA.Size = new System.Drawing.Size(68, 21);
+            this.chbtn_HAHA.TabIndex = 10;
+            this.chbtn_HAHA.Text = "HAHA";
+            this.chbtn_HAHA.UseVisualStyleBackColor = true;
+            // 
+            // chbtn_WOW
+            // 
+            this.chbtn_WOW.AutoSize = true;
+            this.chbtn_WOW.Location = new System.Drawing.Point(63, 170);
+            this.chbtn_WOW.Name = "chbtn_WOW";
+            this.chbtn_WOW.Size = new System.Drawing.Size(67, 21);
+            this.chbtn_WOW.TabIndex = 11;
+            this.chbtn_WOW.Text = "WOW";
+            this.chbtn_WOW.UseVisualStyleBackColor = true;
+            // 
+            // chbtn_Sad
+            // 
+            this.chbtn_Sad.AutoSize = true;
+            this.chbtn_Sad.Location = new System.Drawing.Point(63, 204);
+            this.chbtn_Sad.Name = "chbtn_Sad";
+            this.chbtn_Sad.Size = new System.Drawing.Size(58, 21);
+            this.chbtn_Sad.TabIndex = 12;
+            this.chbtn_Sad.Text = "SAD";
+            this.chbtn_Sad.UseVisualStyleBackColor = true;
+            // 
+            // chbtn_Angry
+            // 
+            this.chbtn_Angry.AutoSize = true;
+            this.chbtn_Angry.Location = new System.Drawing.Point(63, 236);
+            this.chbtn_Angry.Name = "chbtn_Angry";
+            this.chbtn_Angry.Size = new System.Drawing.Size(67, 21);
+            this.chbtn_Angry.TabIndex = 13;
+            this.chbtn_Angry.Text = "Angry";
+            this.chbtn_Angry.UseVisualStyleBackColor = true;
+            // 
+            // tb_Like
+            // 
+            this.tb_Like.Location = new System.Drawing.Point(201, 37);
+            this.tb_Like.Name = "tb_Like";
+            this.tb_Like.Size = new System.Drawing.Size(100, 22);
+            this.tb_Like.TabIndex = 14;
+            this.tb_Like.Text = "Số Lần thả";
+            // 
+            // tb_Tym
+            // 
+            this.tb_Tym.Location = new System.Drawing.Point(201, 71);
+            this.tb_Tym.Name = "tb_Tym";
+            this.tb_Tym.Size = new System.Drawing.Size(100, 22);
+            this.tb_Tym.TabIndex = 15;
+            this.tb_Tym.Text = "Số Lần thả";
+            // 
+            // tb_ThuongThuong
+            // 
+            this.tb_ThuongThuong.Location = new System.Drawing.Point(200, 104);
+            this.tb_ThuongThuong.Name = "tb_ThuongThuong";
+            this.tb_ThuongThuong.Size = new System.Drawing.Size(100, 22);
+            this.tb_ThuongThuong.TabIndex = 16;
+            this.tb_ThuongThuong.Text = "Số Lần thả";
+            // 
+            // tb_HAHA
+            // 
+            this.tb_HAHA.Location = new System.Drawing.Point(200, 137);
+            this.tb_HAHA.Name = "tb_HAHA";
+            this.tb_HAHA.Size = new System.Drawing.Size(100, 22);
+            this.tb_HAHA.TabIndex = 17;
+            this.tb_HAHA.Text = "Số Lần thả";
+            // 
+            // tb_WOW
+            // 
+            this.tb_WOW.Location = new System.Drawing.Point(200, 170);
+            this.tb_WOW.Name = "tb_WOW";
+            this.tb_WOW.Size = new System.Drawing.Size(100, 22);
+            this.tb_WOW.TabIndex = 18;
+            this.tb_WOW.Text = "Số Lần thả";
+            // 
+            // tb_Sad
+            // 
+            this.tb_Sad.Location = new System.Drawing.Point(200, 202);
+            this.tb_Sad.Name = "tb_Sad";
+            this.tb_Sad.Size = new System.Drawing.Size(100, 22);
+            this.tb_Sad.TabIndex = 19;
+            this.tb_Sad.Text = "Số Lần thả";
+            // 
+            // tb_Angry
+            // 
+            this.tb_Angry.Location = new System.Drawing.Point(200, 236);
+            this.tb_Angry.Name = "tb_Angry";
+            this.tb_Angry.Size = new System.Drawing.Size(100, 22);
+            this.tb_Angry.TabIndex = 20;
+            this.tb_Angry.Text = "Số Lần thả";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1024, 553);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btn_StopStory);
             this.Controls.Add(this.lb_CheckStatusStory);
@@ -149,9 +384,17 @@
             this.Controls.Add(this.lb_Password);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Like)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Heart)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ThuongThuong)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Haha)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.WOW)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SAD)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Angry)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -168,7 +411,27 @@
         private System.Windows.Forms.Label lb_CheckStatusStory;
         private System.Windows.Forms.Button btn_StopStory;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox Like;
+        private System.Windows.Forms.TextBox tb_Angry;
+        private System.Windows.Forms.TextBox tb_Sad;
+        private System.Windows.Forms.TextBox tb_WOW;
+        private System.Windows.Forms.TextBox tb_HAHA;
+        private System.Windows.Forms.TextBox tb_ThuongThuong;
+        private System.Windows.Forms.TextBox tb_Tym;
+        private System.Windows.Forms.TextBox tb_Like;
+        private System.Windows.Forms.CheckBox chbtn_Angry;
+        private System.Windows.Forms.CheckBox chbtn_Sad;
+        private System.Windows.Forms.CheckBox chbtn_WOW;
+        private System.Windows.Forms.CheckBox chbtn_HAHA;
+        private System.Windows.Forms.CheckBox chbtn_ThuongThuong;
+        private System.Windows.Forms.CheckBox chbtn_Tym;
+        private System.Windows.Forms.CheckBox chbtn_Like;
+        private System.Windows.Forms.PictureBox Angry;
+        private System.Windows.Forms.PictureBox SAD;
+        private System.Windows.Forms.PictureBox WOW;
+        private System.Windows.Forms.PictureBox Haha;
+        private System.Windows.Forms.PictureBox ThuongThuong;
+        private System.Windows.Forms.PictureBox Heart;
     }
 }
 
