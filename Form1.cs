@@ -82,7 +82,7 @@ namespace ToolFaceBook02
 
         void Run()
         {
-            String chromeDriverPath = tb_path.Text;
+            String chromeDriverPath = KT.Path;
             var options = new ChromeOptions();
             options.AddArgument("no-sandbox");
 
@@ -717,15 +717,10 @@ namespace ToolFaceBook02
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btn_CauHinh_Click(object sender, EventArgs e)
         {
-            FolderBrowserDialog folder = new FolderBrowserDialog();
-            DialogResult result = folder.ShowDialog();
-            tb_path.Text = result.ToString();
-            if (result == DialogResult.OK)
-            {
-                tb_path.Text = folder.SelectedPath;
-            }
+            FormCauHinh CH = new FormCauHinh();
+            CH.ShowDialog();
         }
     }
 }

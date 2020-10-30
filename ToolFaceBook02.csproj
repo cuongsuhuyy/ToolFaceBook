@@ -56,11 +56,23 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormCauHinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCauHinh.Designer.cs">
+      <DependentUpon>FormCauHinh.cs</DependentUpon>
+    </Compile>
     <Compile Include="KhoiTao.cs" />
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.5.AssemblyAttributes.cs" />
+    <Compile Include="obj\Release\.NETFramework,Version=v4.5.AssemblyAttributes.cs" />
+    <Compile Include="PhanTichNewFeeds.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCauHinh.resx">
+      <DependentUpon>FormCauHinh.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -71,7 +83,21 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="bin\Debug\ToolFaceBook02.exe.config" />
+    <None Include="obj\Release\ToolFaceBook02.csprojAssemblyReference.cache" />
     <None Include="packages.config" />
+    <None Include="packages\Selenium.WebDriver.3.141.0\.signature.p7s" />
+    <None Include="packages\Selenium.WebDriver.3.141.0\Selenium.WebDriver.3.141.0.nupkg" />
+    <None Include="packages\Selenium.WebDriver.ChromeDriver.86.0.4240.2200\.signature.p7s" />
+    <None Include="packages\Selenium.WebDriver.ChromeDriver.86.0.4240.2200\build\DefinePropertiesChromeDriver.targets" />
+    <None Include="packages\Selenium.WebDriver.ChromeDriver.86.0.4240.2200\build\Selenium.WebDriver.ChromeDriver.targets" />
+    <None Include="packages\Selenium.WebDriver.ChromeDriver.86.0.4240.2200\driver\linux64\chromedriver" />
+    <None Include="packages\Selenium.WebDriver.ChromeDriver.86.0.4240.2200\driver\mac64\chromedriver" />
+    <None Include="packages\Selenium.WebDriver.ChromeDriver.86.0.4240.2200\Selenium.WebDriver.ChromeDriver.86.0.4240.2200.nupkg" />
+    <None Include="packages\Selenium.WebDriver.IEDriver.3.150.1.2\.signature.p7s" />
+    <None Include="packages\Selenium.WebDriver.IEDriver.3.150.1.2\build\DefinePropertiesIEDriver.targets" />
+    <None Include="packages\Selenium.WebDriver.IEDriver.3.150.1.2\build\Selenium.WebDriver.IEDriver.targets" />
+    <None Include="packages\Selenium.WebDriver.IEDriver.3.150.1.2\Selenium.WebDriver.IEDriver.3.150.1.2.nupkg" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -84,6 +110,34 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\ToolFaceBook02.exe" />
+    <Content Include="bin\Debug\ToolFaceBook02.pdb" />
+    <Content Include="File_Config.xml" />
+    <Content Include="Imgs\angry.png" />
+    <Content Include="Imgs\HAHA.png" />
+    <Content Include="Imgs\heart.png" />
+    <Content Include="Imgs\Like.png" />
+    <Content Include="Imgs\sad.png" />
+    <Content Include="Imgs\ThuongThuong.png" />
+    <Content Include="Imgs\WOW.png" />
+    <Content Include="Imgs_Girls\z2137458725550_b06df70c6efa441b5093d9b01a9c23b2.jpg" />
+    <Content Include="packages\Selenium.WebDriver.3.141.0\lib\net35\WebDriver.dll" />
+    <Content Include="packages\Selenium.WebDriver.3.141.0\lib\net35\WebDriver.xml" />
+    <Content Include="packages\Selenium.WebDriver.3.141.0\lib\net40\WebDriver.dll" />
+    <Content Include="packages\Selenium.WebDriver.3.141.0\lib\net40\WebDriver.xml" />
+    <Content Include="packages\Selenium.WebDriver.3.141.0\lib\net45\WebDriver.dll" />
+    <Content Include="packages\Selenium.WebDriver.3.141.0\lib\net45\WebDriver.xml" />
+    <Content Include="packages\Selenium.WebDriver.3.141.0\lib\netstandard2.0\WebDriver.dll" />
+    <Content Include="packages\Selenium.WebDriver.3.141.0\lib\netstandard2.0\WebDriver.xml" />
+    <Content Include="packages\Selenium.WebDriver.ChromeDriver.86.0.4240.2200\driver\win32\chromedriver.exe" />
+    <Content Include="packages\Selenium.WebDriver.ChromeDriver.86.0.4240.2200\nupkg-icon.png" />
+    <Content Include="packages\Selenium.WebDriver.IEDriver.3.150.1.2\driver\IEDriverServer.exe" />
+    <Content Include="packages\Selenium.WebDriver.IEDriver.3.150.1.2\nupkg-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\Selenium.WebDriver.ChromeDriver.86.0.4240.2200\build\Selenium.WebDriver.ChromeDriver.targets" Condition="Exists('packages\Selenium.WebDriver.ChromeDriver.86.0.4240.2200\build\Selenium.WebDriver.ChromeDriver.targets')" />

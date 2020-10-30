@@ -19,6 +19,7 @@ namespace ToolFaceBook02
         private int SoLan_Sad = 0;
         private int SoLan_PhanNo = 0;
         private int VongLapStory = 0;
+        private String path = "";
 
         public bool Flag_wait_forresponse { get => flag_wait_forresponse; set => flag_wait_forresponse = value; }
         public bool Flag_Check_thread_is_running_Story { get => flag_Check_thread_is_running_Story; set => flag_Check_thread_is_running_Story = value; }
@@ -30,5 +31,6 @@ namespace ToolFaceBook02
         public int SoLan_Sad1 { get => SoLan_Sad; set => SoLan_Sad = value; }
         public int SoLan_PhanNo1 { get => SoLan_PhanNo; set => SoLan_PhanNo = value; }
         public int VongLapStory1 { get => VongLapStory; set => VongLapStory = value; }
+        public string Path { get => path; set => path = value; }
     }
 }

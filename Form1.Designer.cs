@@ -75,15 +75,13 @@
             this.tb_XacnhanMK = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btn_CauHinh = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.chbtn_newFeeds = new System.Windows.Forms.CheckBox();
             this.lb_soLanLuotNF = new System.Windows.Forms.Label();
             this.tb_SoLanLuotNF = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.folderBrowserDialogChromeDriver = new System.Windows.Forms.FolderBrowserDialog();
-            this.button1 = new System.Windows.Forms.Button();
-            this.lb_path = new System.Windows.Forms.Label();
-            this.tb_path = new System.Windows.Forms.TextBox();
             this.gb_ThaStory.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Angry)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SAD)).BeginInit();
@@ -547,9 +545,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.tb_path);
-            this.groupBox2.Controls.Add(this.lb_path);
-            this.groupBox2.Controls.Add(this.button1);
+            this.groupBox2.Controls.Add(this.btn_CauHinh);
             this.groupBox2.Controls.Add(this.tb_UserName);
             this.groupBox2.Controls.Add(this.lb_Password);
             this.groupBox2.Controls.Add(this.lb_UserName);
@@ -561,6 +557,16 @@
             this.groupBox2.TabIndex = 22;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Thông tin tài khoản";
+            // 
+            // btn_CauHinh
+            // 
+            this.btn_CauHinh.Location = new System.Drawing.Point(156, 91);
+            this.btn_CauHinh.Name = "btn_CauHinh";
+            this.btn_CauHinh.Size = new System.Drawing.Size(136, 47);
+            this.btn_CauHinh.TabIndex = 5;
+            this.btn_CauHinh.Text = "Cấu Hình";
+            this.btn_CauHinh.UseVisualStyleBackColor = true;
+            this.btn_CauHinh.Click += new System.EventHandler(this.btn_CauHinh_Click);
             // 
             // groupBox3
             // 
@@ -611,34 +617,6 @@
             this.label7.TabIndex = 0;
             this.label7.Text = "Số Lần Lướt NewFeeds:";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(156, 91);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(136, 47);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Đường dẫn\r\nChromeDriver\r\n";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // lb_path
-            // 
-            this.lb_path.AutoSize = true;
-            this.lb_path.Location = new System.Drawing.Point(14, 145);
-            this.lb_path.Name = "lb_path";
-            this.lb_path.Size = new System.Drawing.Size(41, 17);
-            this.lb_path.TabIndex = 6;
-            this.lb_path.Text = "Path:";
-            // 
-            // tb_path
-            // 
-            this.tb_path.Location = new System.Drawing.Point(62, 145);
-            this.tb_path.Name = "tb_path";
-            this.tb_path.ReadOnly = true;
-            this.tb_path.Size = new System.Drawing.Size(230, 22);
-            this.tb_path.TabIndex = 7;
-            this.tb_path.Text = "D:\\RAR\\ChromeDriver_x86\\chromedriver_win32";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -649,7 +627,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.gb_ThaStory);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = " ";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.gb_ThaStory.ResumeLayout(false);
@@ -725,9 +703,7 @@
         private System.Windows.Forms.Label lb_soLanLuotNF;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialogChromeDriver;
         private System.Windows.Forms.CheckBox chbtn_newFeeds;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox tb_path;
-        private System.Windows.Forms.Label lb_path;
+        private System.Windows.Forms.Button btn_CauHinh;
     }
 }
 
