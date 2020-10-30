@@ -30,6 +30,8 @@
         {
             this.btn_Path = new System.Windows.Forms.Button();
             this.tb_Path = new System.Windows.Forms.TextBox();
+            this.btn_Save = new System.Windows.Forms.Button();
+            this.lb_statusSave = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn_Path
@@ -50,11 +52,32 @@
             this.tb_Path.TabIndex = 1;
             this.tb_Path.Text = "D:\\RAR\\ChromeDriver_x86\\chromedriver_win32";
             // 
+            // btn_Save
+            // 
+            this.btn_Save.Location = new System.Drawing.Point(374, 385);
+            this.btn_Save.Name = "btn_Save";
+            this.btn_Save.Size = new System.Drawing.Size(75, 23);
+            this.btn_Save.TabIndex = 2;
+            this.btn_Save.Text = "SAVE";
+            this.btn_Save.UseVisualStyleBackColor = true;
+            this.btn_Save.Click += new System.EventHandler(this.btn_Save_Click);
+            // 
+            // lb_statusSave
+            // 
+            this.lb_statusSave.AutoSize = true;
+            this.lb_statusSave.ForeColor = System.Drawing.Color.DarkRed;
+            this.lb_statusSave.Location = new System.Drawing.Point(293, 411);
+            this.lb_statusSave.Name = "lb_statusSave";
+            this.lb_statusSave.Size = new System.Drawing.Size(0, 17);
+            this.lb_statusSave.TabIndex = 3;
+            // 
             // FormCauHinh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lb_statusSave);
+            this.Controls.Add(this.btn_Save);
             this.Controls.Add(this.tb_Path);
             this.Controls.Add(this.btn_Path);
             this.Name = "FormCauHinh";
@@ -68,5 +91,7 @@
 
         private System.Windows.Forms.Button btn_Path;
         private System.Windows.Forms.TextBox tb_Path;
+        private System.Windows.Forms.Button btn_Save;
+        private System.Windows.Forms.Label lb_statusSave;
     }
 }

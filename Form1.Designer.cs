@@ -82,6 +82,9 @@
             this.tb_SoLanLuotNF = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.folderBrowserDialogChromeDriver = new System.Windows.Forms.FolderBrowserDialog();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.gb_ThaStory.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Angry)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SAD)).BeginInit();
@@ -93,6 +96,8 @@
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.tabControl1.SuspendLayout();
+            this.tabPage1.SuspendLayout();
             this.SuspendLayout();
             // 
             // lb_Password
@@ -119,7 +124,6 @@
             this.tb_UserName.Name = "tb_UserName";
             this.tb_UserName.Size = new System.Drawing.Size(195, 22);
             this.tb_UserName.TabIndex = 2;
-            this.tb_UserName.Text = "cuongsu0072013@yahoo.com";
             // 
             // tb_Password
             // 
@@ -128,7 +132,6 @@
             this.tb_Password.PasswordChar = '*';
             this.tb_Password.Size = new System.Drawing.Size(195, 22);
             this.tb_Password.TabIndex = 3;
-            this.tb_Password.Text = "khongbiet";
             // 
             // btn_SignIn
             // 
@@ -198,7 +201,7 @@
             this.gb_ThaStory.Controls.Add(this.ThuongThuong);
             this.gb_ThaStory.Controls.Add(this.Heart);
             this.gb_ThaStory.Controls.Add(this.Like);
-            this.gb_ThaStory.Location = new System.Drawing.Point(346, 21);
+            this.gb_ThaStory.Location = new System.Drawing.Point(334, 27);
             this.gb_ThaStory.Name = "gb_ThaStory";
             this.gb_ThaStory.Size = new System.Drawing.Size(363, 411);
             this.gb_ThaStory.TabIndex = 8;
@@ -536,7 +539,7 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.tb_Ho);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Location = new System.Drawing.Point(49, 250);
+            this.groupBox1.Location = new System.Drawing.Point(19, 206);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(238, 240);
             this.groupBox1.TabIndex = 21;
@@ -551,7 +554,7 @@
             this.groupBox2.Controls.Add(this.lb_UserName);
             this.groupBox2.Controls.Add(this.tb_Password);
             this.groupBox2.Controls.Add(this.btn_SignIn);
-            this.groupBox2.Location = new System.Drawing.Point(24, 21);
+            this.groupBox2.Location = new System.Drawing.Point(6, 6);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(307, 181);
             this.groupBox2.TabIndex = 22;
@@ -574,7 +577,7 @@
             this.groupBox3.Controls.Add(this.lb_soLanLuotNF);
             this.groupBox3.Controls.Add(this.tb_SoLanLuotNF);
             this.groupBox3.Controls.Add(this.label7);
-            this.groupBox3.Location = new System.Drawing.Point(743, 21);
+            this.groupBox3.Location = new System.Drawing.Point(729, 63);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(285, 120);
             this.groupBox3.TabIndex = 23;
@@ -617,15 +620,47 @@
             this.label7.TabIndex = 0;
             this.label7.Text = "Số Lần Lướt NewFeeds:";
             // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControl1.Location = new System.Drawing.Point(0, 0);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(1058, 553);
+            this.tabControl1.TabIndex = 24;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.groupBox2);
+            this.tabPage1.Controls.Add(this.groupBox3);
+            this.tabPage1.Controls.Add(this.groupBox1);
+            this.tabPage1.Controls.Add(this.gb_ThaStory);
+            this.tabPage1.Location = new System.Drawing.Point(4, 25);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(1050, 524);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(192, 71);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1058, 553);
-            this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.gb_ThaStory);
+            this.Controls.Add(this.tabControl1);
             this.Name = "Form1";
             this.Text = " ";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
@@ -645,6 +680,8 @@
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.tabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -704,6 +741,9 @@
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialogChromeDriver;
         private System.Windows.Forms.CheckBox chbtn_newFeeds;
         private System.Windows.Forms.Button btn_CauHinh;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
     }
 }
 

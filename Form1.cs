@@ -15,20 +15,8 @@ namespace ToolFaceBook02
 {
     public partial class Form1 : Form
     {
-        //private bool flag_wait_forresponse = true;
-        //private bool flag_Check_thread_is_running_Story = false;
-        //private int SoLan_Like = 0;
-        //private int SoLan_Tym = 0;
-        //private int SoLan_ThuongThuong = 0;
-        //private int SoLan_WOW = 0;
-        //private int SoLan_HAHA = 0;
-        //private int SoLan_Sad = 0;
-        //private int SoLan_PhanNo = 0;
-        //private int VongLapStory = 0;
         KhoiTao KT;
 
-        ThreadStart ts_fb;
-        Thread thrd_fb;
         ThreadStart ts_gmail;
         Thread thrd_gmail;
 
@@ -43,8 +31,6 @@ namespace ToolFaceBook02
         {
             KT = new KhoiTao();
             lb_CheckStatusStory.Text = KT.Flag_Check_thread_is_running_Story.ToString();
-            ts_fb = new ThreadStart(Run);
-            thrd_fb = new Thread(ts_fb);
 
             ts_gmail = new ThreadStart(TaoTKGmail);
             thrd_gmail = new Thread(ts_gmail);
@@ -571,18 +557,18 @@ namespace ToolFaceBook02
             }
             KT.Flag_Check_thread_is_running_Story = true;
             lb_CheckStatusStory.Text = KT.Flag_Check_thread_is_running_Story.ToString();
+            ThreadStart ts_fb = new ThreadStart(Run);
+            Thread thrd_fb = new Thread(ts_fb);
             thrd_fb.Start();
         }
 
         private void btn_StopStory_Click(object sender, EventArgs e)
         {
-            thrd_fb.Abort();
             lb_CheckStatusStory.Text = KT.Flag_Check_thread_is_running_Story.ToString();
         }
 
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {
-            thrd_fb.Abort();
             thrd_gmail.Abort();
             Application.Exit();
         }
