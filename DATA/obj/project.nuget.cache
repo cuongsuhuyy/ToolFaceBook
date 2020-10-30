@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "KHNLaS9fBIx3GuDvovHk/SnnSu+LCWR2k569Pj5WHsylQdv7bhOm17iU8+48NqZzrit6u2da3C/3o6XEUd6iug==",
+  "success": true,
+  "projectFilePath": "D:\\ToolFacebook02\\ToolFaceBook02\\ToolFaceBook02\\DataProvider\\DATA.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Shishi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Shishi\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

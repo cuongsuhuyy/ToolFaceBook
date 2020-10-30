@@ -1,6 +1,6 @@
 ﻿namespace ToolFaceBook02
 {
-    partial class Form1
+    partial class FormMain
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.lb_Password = new System.Windows.Forms.Label();
             this.lb_UserName = new System.Windows.Forms.Label();
             this.tb_UserName = new System.Windows.Forms.TextBox();

@@ -82,6 +82,7 @@
             this.Controls.Add(this.btn_Path);
             this.Name = "FormCauHinh";
             this.Text = "FormCauHinh";
+            this.Load += new System.EventHandler(this.FormCauHinh_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

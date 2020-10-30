@@ -11,17 +11,19 @@ using System.Windows.Forms;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
+
 namespace ToolFaceBook02
 {
-    public partial class Form1 : Form
+    public partial class FormMain : Form
     {
-        KhoiTao KT;
+        DataProvider.KhoiTao KT;
+        
 
         ThreadStart ts_gmail;
         Thread thrd_gmail;
 
         
-        public Form1()
+        public FormMain()
         {
             Control.CheckForIllegalCrossThreadCalls = false;
             InitializeComponent();
@@ -29,7 +31,7 @@ namespace ToolFaceBook02
         
         private void Form1_Load(object sender, EventArgs e)
         {
-            KT = new KhoiTao();
+            KT = new DataProvider.KhoiTao();
             lb_CheckStatusStory.Text = KT.Flag_Check_thread_is_running_Story.ToString();
 
             ts_gmail = new ThreadStart(TaoTKGmail);

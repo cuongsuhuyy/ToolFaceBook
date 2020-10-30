@@ -1,0 +1,12 @@
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\Bridge_DAO\bin\Debug\netstandard2.0\CauNoi_DAO.deps.json
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\Bridge_DAO\bin\Debug\netstandard2.0\CauNoi_DAO.dll
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\Bridge_DAO\bin\Debug\netstandard2.0\CauNoi_DAO.pdb
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\Bridge_DAO\bin\Debug\netstandard2.0\DataProvider_DTO.dll
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\Bridge_DAO\bin\Debug\netstandard2.0\DataProvider_DTO.pdb
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\Bridge_DAO\obj\Debug\netstandard2.0\CauNoi_DAO.csprojAssemblyReference.cache
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\Bridge_DAO\obj\Debug\netstandard2.0\CauNoi_DAO.AssemblyInfoInputs.cache
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\Bridge_DAO\obj\Debug\netstandard2.0\CauNoi_DAO.AssemblyInfo.cs
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\Bridge_DAO\obj\Debug\netstandard2.0\CauNoi_DAO.csproj.CoreCompileInputs.cache
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\Bridge_DAO\obj\Debug\netstandard2.0\CauNoi_DAO.csproj.CopyComplete
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\Bridge_DAO\obj\Debug\netstandard2.0\CauNoi_DAO.dll
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\Bridge_DAO\obj\Debug\netstandard2.0\CauNoi_DAO.pdb

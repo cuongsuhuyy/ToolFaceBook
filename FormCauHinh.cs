@@ -9,11 +9,12 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace ToolFaceBook02
 {
     public partial class FormCauHinh : Form
     {
-        KhoiTao KT;
+        DataProvider.KhoiTao KT;
         private int DemClosing;
         public FormCauHinh()
         {
@@ -54,6 +55,11 @@ namespace ToolFaceBook02
             Thread thrd_Clsave = new Thread(ts_Clsave);
             thrd_Clsave.Start();
             //thrd_Clsave.Abort();
+        }
+
+        private void FormCauHinh_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

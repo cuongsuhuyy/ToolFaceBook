@@ -1,13 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 
-namespace ToolFaceBook02
+
+namespace DataProvider
 {
-    class KhoiTao
+    public class KhoiTao_DTO
     {
         private bool flag_wait_forresponse = true;
         private bool flag_Check_thread_is_running_Story = false;

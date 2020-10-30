@@ -1,0 +1,8 @@
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\Bridge_DAO\bin\Debug\netstandard2.0\Bridge_DAO.deps.json
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\Bridge_DAO\bin\Debug\netstandard2.0\Bridge_DAO.dll
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\Bridge_DAO\bin\Debug\netstandard2.0\Bridge_DAO.pdb
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\Bridge_DAO\obj\Debug\netstandard2.0\Bridge_DAO.AssemblyInfoInputs.cache
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\Bridge_DAO\obj\Debug\netstandard2.0\Bridge_DAO.AssemblyInfo.cs
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\Bridge_DAO\obj\Debug\netstandard2.0\Bridge_DAO.csproj.CoreCompileInputs.cache
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\Bridge_DAO\obj\Debug\netstandard2.0\Bridge_DAO.dll
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\Bridge_DAO\obj\Debug\netstandard2.0\Bridge_DAO.pdb

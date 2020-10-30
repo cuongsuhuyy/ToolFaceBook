@@ -50,11 +50,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
     <Compile Include="FormCauHinh.cs">
       <SubType>Form</SubType>
@@ -62,14 +62,12 @@
     <Compile Include="FormCauHinh.Designer.cs">
       <DependentUpon>FormCauHinh.cs</DependentUpon>
     </Compile>
-    <Compile Include="KhoiTao.cs" />
     <Compile Include="obj\Debug\.NETFramework,Version=v4.5.AssemblyAttributes.cs" />
     <Compile Include="obj\Release\.NETFramework,Version=v4.5.AssemblyAttributes.cs" />
-    <Compile Include="PhanTichNewFeeds.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormCauHinh.resx">
       <DependentUpon>FormCauHinh.cs</DependentUpon>
@@ -114,7 +112,6 @@
   <ItemGroup>
     <Content Include="bin\Debug\ToolFaceBook02.exe" />
     <Content Include="bin\Debug\ToolFaceBook02.pdb" />
-    <Content Include="File_Config.xml" />
     <Content Include="Imgs\angry.png" />
     <Content Include="Imgs\HAHA.png" />
     <Content Include="Imgs\heart.png" />
@@ -138,6 +135,16 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Bridge_DAO\CauNoi_DAO.csproj">
+      <Project>{fac9023c-43fd-4079-b425-1e020481ce57}</Project>
+      <Name>CauNoi_DAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="BUS\BUS.csproj">
+      <Project>{9c1b37bf-2d44-477a-a300-2f0e9db2de00}</Project>
+      <Name>BUS</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\Selenium.WebDriver.ChromeDriver.86.0.4240.2200\build\Selenium.WebDriver.ChromeDriver.targets" Condition="Exists('packages\Selenium.WebDriver.ChromeDriver.86.0.4240.2200\build\Selenium.WebDriver.ChromeDriver.targets')" />

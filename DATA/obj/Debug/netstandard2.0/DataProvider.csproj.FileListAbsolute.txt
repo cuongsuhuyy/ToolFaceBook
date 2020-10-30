@@ -1,0 +1,9 @@
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\DataProvider\bin\Debug\netstandard2.0\DataProvider.deps.json
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\DataProvider\bin\Debug\netstandard2.0\DataProvider.dll
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\DataProvider\bin\Debug\netstandard2.0\DataProvider.pdb
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\DataProvider\obj\Debug\netstandard2.0\DataProvider.csprojAssemblyReference.cache
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\DataProvider\obj\Debug\netstandard2.0\DataProvider.AssemblyInfoInputs.cache
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\DataProvider\obj\Debug\netstandard2.0\DataProvider.AssemblyInfo.cs
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\DataProvider\obj\Debug\netstandard2.0\DataProvider.csproj.CoreCompileInputs.cache
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\DataProvider\obj\Debug\netstandard2.0\DataProvider.dll
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\DataProvider\obj\Debug\netstandard2.0\DataProvider.pdb

@@ -1,0 +1,16 @@
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\obj\Debug\0ToolFaceBook02.csprojAssemblyReference.cache
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\obj\Debug\ToolFaceBook02.FormMain.resources
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\obj\Debug\ToolFaceBook02.FormCauHinh.resources
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\obj\Debug\ToolFaceBook02.Properties.Resources.resources
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\obj\Debug\0ToolFaceBook02.csproj.GenerateResource.cache
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\obj\Debug\0ToolFaceBook02.csproj.CoreCompileInputs.cache
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\obj\Debug\ToolFaceBook02.exe
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\obj\Debug\ToolFaceBook02.pdb
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\bin\Debug\ToolFaceBook02.exe.config
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\bin\Debug\ToolFaceBook02.exe
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\bin\Debug\ToolFaceBook02.pdb
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\bin\Debug\DataProvider.dll
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\bin\Debug\WebDriver.dll
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\bin\Debug\DataProvider.pdb
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\bin\Debug\WebDriver.xml
+D:\ToolFacebook02\ToolFaceBook02\ToolFaceBook02\obj\Debug\0ToolFaceBook02.csproj.CopyComplete
